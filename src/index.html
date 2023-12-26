@@ -14,31 +14,75 @@
     </div>
     -->
     <h1 class="text-5xl font-bold text-rose-600">Curso TailwindCSS</h1>
+
+    <p class="first-letter:text-red-500 first-letter:text-2xl">Algum texto vai precisar ficar aqui no parágrafo</p>
+
+    <diV class="mt-4">
+        <!--
+            Dei um bottom de 4 em relação a <p>Descrição desse conteúdo aqui...</p>
+            <h2 class="first:mb-4">Título do post</h2> 
+        -->
+
+        <!--Texto antes do <br/> fica maior. Ou seja, o texto "Descrição desse conteúdo aqui"-->
+        <p class="first-line:text-xl">Descrição desse conteúdo aqui <br /> 
+        Outro texto aqui que podemos criar</p>
+    </diV>
+
+    <!--
+        text-white deixa o conetúdo do botão em branco
+        rounded-lg deixa o botão com a borda arrendodada
+        hover:bg-gray-800 duration-300 faz o efeito de hover no botão, passando de blue para gray em 300 milissegundos
+        hover:scale-100 aumenta o tamanho do botão ao passar o mouse
+            Por padrão, o scale do botão é 100. Assim, não necessito informar na class.  
+    -->
+    <button class="bg-blue-700 py-2 px-5 text-white rounded-lg hover:bg-gray-800 hover:scale-110 duration-300">Acessar conta</button>
+
+    <!--animate-bounce é uma animação. Com pulse, o botão fica pulsando
+        Se eu quiser que a animação aparece quando passar o mouse, posso fazer: hover:animate-pulse
+        <button class="bg-green-700 text-white py-2 px-4 hover:animate-pulse">Criar conta</button>
+    -->
+    <button class="bg-green-700 text-white py-2 px-4 animate-pulse">Criar conta</button>
+
     <!--  <div class="bg-slate-900 w-96 h-64 mt-8 ml-4 mr-4 mb-4"> </div>-->
-    <!--  <div class="bg-slate-900 w-96 h-64 m-8"> </div>-->
-        <div class="bg-slate-900 w-96 h-64 mx-4 my-4">
-            <h2 class="text-white p-10">Aprendendo TailwindCSS</h2>
-        </div>
 
-        <!-- Formas de definir cores-->
-        <!--<div class="bg-[#43302b] w-full h-20"></div>-->
-        <!--<div class="bg-primary w-full h-20"></div>-->
-        <!-- <div class="bg-red-900 w-full h-20"></div>-->
+    <!--  
+        <div class="bg-slate-900 w-96 h-64 m-8"> </div>
+            <div class="bg-slate-900 w-96 h-64 mx-4 my-4">
+                <h2 class="text-white p-10">Aprendendo TailwindCSS</h2>
+            </div> 
+    -->
 
-       <!-- Shadow(ou sobreamento) com preenchimento(bg-slate-500 é o preenchimento de cinza)-->
-       <!-- <div class="w-20 h-20 bg-slate-500 shadow-md mb-4"></div>-->
-       <!-- <div class="w-20 h-20 bg-slate-500 shadow-lg mb-4"></div>-->
-       <!-- <div class="w-20 h-20 bg-slate-500 shadow-xl mb-4"></div>-->
-       <!-- <div class="w-20 h-20 bg-slate-500 shadow-2xl mb-4"></div>-->
+        <!-- 
+            Formas de definir cores
+            <div class="bg-[#43302b] w-full h-20"></div>
+            <div class="bg-primary w-full h-20"></div>
+            <div class="bg-red-900 w-full h-20"></div>
+        -->
 
-       <!-- Shadow(ou sobreamento) sem cor-->
-       <!--<div class="w-20 h-20 shadow-md mb-4"></div>-->
-       <!--<div class="w-20 h-20 shadow-lg mb-4"></div>-->
-       <!--<div class="w-20 h-20 shadow-xl mb-4"></div>-->
-       <!--<div class="w-20 h-20 shadow-2xl mb-4"></div>-->
+       <!-- 
+        Shadow(ou sombreamento) com preenchimento(bg-slate-500 é o preenchimento de cinza)
+            <div class="w-20 h-20 bg-slate-500 shadow-md mb-4"></div>
+            <div class="w-20 h-20 bg-slate-500 shadow-lg mb-4"></div>
+            <div class="w-20 h-20 bg-slate-500 shadow-xl mb-4"></div>
+            <div class="w-20 h-20 bg-slate-500 shadow-2xl mb-4"></div>
+        -->
 
-        <!-- Shadow com cor-->
-       <div class="w-20 h-20 shadow-sm shadow-green-500 mb-4"></div>
+       <!-- 
+            Shadow(ou sombreamento) sem cor
+            <div class="w-20 h-20 shadow-md mb-4"></div>
+            <div class="w-20 h-20 shadow-lg mb-4"></div>
+            <div class="w-20 h-20 shadow-xl mb-4"></div>
+            <div class="w-20 h-20 shadow-2xl mb-4"></div>
+        -->
+
+        <!--
+            Shadow com cor no sombreamento
+            <div class="w-20 h-20 shadow-sm shadow-green-500 mb-4"></div>
+        -->
+       
+
+
+
        
 </body>
 </html>
